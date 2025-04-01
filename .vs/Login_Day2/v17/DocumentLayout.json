@@ -1,119 +1,131 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nguye\\Desktop\\Login_Day2\\",
+  "WorkspaceRootPath": "C:\\Users\\nguye\\source\\repos\\Login2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|c:\\users\\nguye\\desktop\\login_day2\\login_day2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|c:\\users\\nguye\\source\\repos\\login2\\login_day2\\printerstudentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\printerstudentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|c:\\users\\nguye\\source\\repos\\login2\\login_day2\\printerstudentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\printerstudentsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\source\\repos\\Login2\\login_day2\\liststudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\liststudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\source\\repos\\Login2\\login_day2\\liststudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\liststudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\source\\repos\\Login2\\login_day2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|c:\\users\\nguye\\source\\repos\\login2\\login_day2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|c:\\users\\nguye\\source\\repos\\login2\\login_day2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\Desktop\\Login_Day2\\login_day2\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\source\\repos\\Login2\\login_day2\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\source\\repos\\Login2\\login_day2\\resetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\resetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\source\\repos\\Login2\\login_day2\\managestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\managestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\source\\repos\\Login2\\login_day2\\updatedeletestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\updatedeletestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\source\\repos\\Login2\\login_day2\\managestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\managestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\source\\repos\\Login2\\login_day2\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\source\\repos\\Login2\\login_day2\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\Desktop\\Login_Day2\\login_day2\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\source\\repos\\Login2\\login_day2\\forgetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\forgetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\source\\repos\\Login2\\login_day2\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\Desktop\\Login_Day2\\login_day2\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\source\\repos\\Login2\\login_day2\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/myDB/True/SqlTable/dbo.std.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\Desktop\\Login_Day2\\login_day2\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\Desktop\\Login_Day2\\login_day2\\managestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\managestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\Desktop\\Login_Day2\\login_day2\\statistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\source\\repos\\Login2\\login_day2\\statistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\statistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\Desktop\\Login_Day2\\login_day2\\statistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\source\\repos\\Login2\\login_day2\\statistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\statistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\Desktop\\Login_Day2\\login_day2\\managestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\managestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\Desktop\\Login_Day2\\login_day2\\updatedeletestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\updatedeletestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\Desktop\\Login_Day2\\login_day2\\liststudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\liststudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\Desktop\\Login_Day2\\login_day2\\liststudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\liststudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\Desktop\\Login_Day2\\login_day2\\forgetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\forgetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\Desktop\\Login_Day2\\login_day2\\newuserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\source\\repos\\Login2\\login_day2\\newuserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\newuserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\Desktop\\Login_Day2\\login_day2\\updatedeletestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\source\\repos\\Login2\\login_day2\\updatedeletestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\updatedeletestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\Desktop\\Login_Day2\\login_day2\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\Desktop\\Login_Day2\\login_day2\\resetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\resetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\Desktop\\Login_Day2\\login_day2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\source\\repos\\Login2\\login_day2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\Desktop\\Login_Day2\\login_day2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\source\\repos\\Login2\\login_day2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\Desktop\\Login_Day2\\login_day2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\Desktop\\Login_Day2\\login_day2\\newuserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\source\\repos\\Login2\\login_day2\\newuserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\newuserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\Desktop\\Login_Day2\\login_day2\\forgetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\source\\repos\\Login2\\login_day2\\forgetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\forgetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\Desktop\\Login_Day2\\login_day2\\resetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\source\\repos\\Login2\\login_day2\\resetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\resetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/myDB/True/SqlTable/dbo.log_in.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\Desktop\\Login_Day2\\login_day2\\mydbdataset_student.xss||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\source\\repos\\Login2\\login_day2\\mydbdataset_student.xss||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\mydbdataset_student.xss||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\Desktop\\Login_Day2\\login_day2\\newuserform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\source\\repos\\Login2\\login_day2\\newuserform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\newuserform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\Desktop\\Login_Day2\\login_day2\\my_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\source\\repos\\Login2\\login_day2\\my_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\my_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\Desktop\\Login_Day2\\login_day2\\forgetpassword.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|C:\\Users\\nguye\\source\\repos\\Login2\\login_day2\\forgetpassword.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7999805-9CA3-4B1E-8DBE-E7584C1A6B9E}|Login_Day2\\Login_Day2.csproj|solutionrelative:login_day2\\forgetpassword.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -135,28 +147,92 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PrinterStudentsForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\PrinterStudentsForm.cs",
+              "RelativeDocumentMoniker": "Login_Day2\\PrinterStudentsForm.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\PrinterStudentsForm.cs [Design]",
+              "RelativeToolTip": "Login_Day2\\PrinterStudentsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T06:55:34.9Z",
+              "EditorCaption": " [Design]"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\Program.cs",
+              "RelativeDocumentMoniker": "Login_Day2\\Program.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\Program.cs",
+              "RelativeToolTip": "Login_Day2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T02:48:18.095Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "listStudentForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\listStudentForm.cs",
+              "RelativeDocumentMoniker": "Login_Day2\\listStudentForm.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\listStudentForm.cs [Design]",
+              "RelativeToolTip": "Login_Day2\\listStudentForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T07:25:45.899Z",
+              "EditorCaption": " [Design]"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{007a3a6b-b5b2-454d-a2bd-cf929f989be2}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "listStudentForm.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\listStudentForm.cs",
+              "RelativeDocumentMoniker": "Login_Day2\\listStudentForm.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\listStudentForm.cs",
+              "RelativeToolTip": "Login_Day2\\listStudentForm.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAMwD4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T07:48:55.861Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\MainForm.cs",
+              "Title": "PrinterStudentsForm.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\PrinterStudentsForm.cs",
+              "RelativeDocumentMoniker": "Login_Day2\\PrinterStudentsForm.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\PrinterStudentsForm.cs",
+              "RelativeToolTip": "Login_Day2\\PrinterStudentsForm.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAApwJYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T06:29:14.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\MainForm.cs",
               "RelativeDocumentMoniker": "Login_Day2\\MainForm.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\MainForm.cs [Design]",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\MainForm.cs",
+              "RelativeToolTip": "Login_Day2\\MainForm.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAIAwwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T06:58:27.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\MainForm.cs",
+              "RelativeDocumentMoniker": "Login_Day2\\MainForm.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\MainForm.cs [Design]",
               "RelativeToolTip": "Login_Day2\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T06:53:56.361Z",
@@ -164,39 +240,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "dbo.std.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/myDB/True/SqlTable/dbo.std.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/myDB/True/SqlTable/dbo.std.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-31T16:21:07.559Z"
+              "DocumentIndex": 8,
+              "Title": "ResetPassword.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\ResetPassword.cs",
+              "RelativeDocumentMoniker": "Login_Day2\\ResetPassword.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\ResetPassword.cs [Design]",
+              "RelativeToolTip": "Login_Day2\\ResetPassword.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:44:41.89Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\packages.config",
+              "RelativeDocumentMoniker": "Login_Day2\\packages.config",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\packages.config",
+              "RelativeToolTip": "Login_Day2\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-11T12:55:03.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ManageStudentForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\ManageStudentForm.cs",
+              "RelativeDocumentMoniker": "Login_Day2\\ManageStudentForm.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\ManageStudentForm.cs [Design]",
+              "RelativeToolTip": "Login_Day2\\ManageStudentForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T08:16:25.374Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "updateDeleteStudentForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\updateDeleteStudentForm.cs",
+              "RelativeDocumentMoniker": "Login_Day2\\updateDeleteStudentForm.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\updateDeleteStudentForm.cs [Design]",
+              "RelativeToolTip": "Login_Day2\\updateDeleteStudentForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T08:06:43.056Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ManageStudentForm.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\ManageStudentForm.cs",
+              "RelativeDocumentMoniker": "Login_Day2\\ManageStudentForm.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\ManageStudentForm.cs",
+              "RelativeToolTip": "Login_Day2\\ManageStudentForm.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAMwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T08:19:57.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "STUDENT.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\STUDENT.cs",
+              "RelativeDocumentMoniker": "Login_Day2\\STUDENT.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\STUDENT.cs",
+              "RelativeToolTip": "Login_Day2\\STUDENT.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAswGAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T06:55:00.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ForgetPassword.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\ForgetPassword.cs",
+              "RelativeDocumentMoniker": "Login_Day2\\ForgetPassword.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\ForgetPassword.cs [Design]",
+              "RelativeToolTip": "Login_Day2\\ForgetPassword.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:12:35.803Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "AddStudentForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\AddStudentForm.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\AddStudentForm.cs",
               "RelativeDocumentMoniker": "Login_Day2\\AddStudentForm.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\AddStudentForm.cs [Design]",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\AddStudentForm.cs [Design]",
               "RelativeToolTip": "Login_Day2\\AddStudentForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T07:03:22.385Z"
+              "WhenOpened": "2025-02-25T07:03:22.385Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddStudentForm.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\AddStudentForm.cs",
-              "RelativeDocumentMoniker": "Login_Day2\\AddStudentForm.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\AddStudentForm.cs",
-              "RelativeToolTip": "Login_Day2\\AddStudentForm.cs",
-              "ViewState": "AgIAAOkAAAAAAAAAAAAhwPwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T07:28:20.264Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "dbo.log_in.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/myDB/True/SqlTable/dbo.log_in.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/myDB/True/SqlTable/dbo.log_in.sql",
@@ -205,11 +348,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 17,
+              "Title": "dbo.std.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/myDB/True/SqlTable/dbo.std.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/myDB/True/SqlTable/dbo.std.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-31T16:21:07.559Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{007a3a6b-b5b2-454d-a2bd-cf929f989be2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddStudentForm.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\AddStudentForm.cs",
+              "RelativeDocumentMoniker": "Login_Day2\\AddStudentForm.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\AddStudentForm.cs",
+              "RelativeToolTip": "Login_Day2\\AddStudentForm.cs",
+              "ViewState": "AgIAAOkAAAAAAAAAAAAhwPwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T07:28:20.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\App.config",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\App.config",
               "RelativeDocumentMoniker": "Login_Day2\\App.config",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\App.config",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\App.config",
               "RelativeToolTip": "Login_Day2\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
@@ -218,23 +395,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "STUDENT.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\STUDENT.cs",
-              "RelativeDocumentMoniker": "Login_Day2\\STUDENT.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\STUDENT.cs",
-              "RelativeToolTip": "Login_Day2\\STUDENT.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwGAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T06:55:00.052Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "Statistic.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\Statistic.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\Statistic.cs",
               "RelativeDocumentMoniker": "Login_Day2\\Statistic.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\Statistic.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\Statistic.cs",
               "RelativeToolTip": "Login_Day2\\Statistic.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -242,147 +407,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "Statistic.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\Statistic.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\Statistic.cs",
               "RelativeDocumentMoniker": "Login_Day2\\Statistic.cs",
               "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\Statistic.cs [Design]",
-              "RelativeToolTip": "Login_Day2\\Statistic.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\Login_Day2\\Login_Day2\\Statistic.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T07:41:38.692Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ManageStudentForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\ManageStudentForm.cs",
-              "RelativeDocumentMoniker": "Login_Day2\\ManageStudentForm.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\ManageStudentForm.cs [Design]",
-              "RelativeToolTip": "Login_Day2\\ManageStudentForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T08:16:25.374Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ManageStudentForm.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\ManageStudentForm.cs",
-              "RelativeDocumentMoniker": "Login_Day2\\ManageStudentForm.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\ManageStudentForm.cs",
-              "RelativeToolTip": "Login_Day2\\ManageStudentForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T08:19:57.383Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "updateDeleteStudentForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\updateDeleteStudentForm.cs",
-              "RelativeDocumentMoniker": "Login_Day2\\updateDeleteStudentForm.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\updateDeleteStudentForm.cs [Design]",
-              "RelativeToolTip": "Login_Day2\\updateDeleteStudentForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T08:06:43.056Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "listStudentForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\listStudentForm.cs",
-              "RelativeDocumentMoniker": "Login_Day2\\listStudentForm.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\listStudentForm.cs [Design]",
-              "RelativeToolTip": "Login_Day2\\listStudentForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T07:25:45.899Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "listStudentForm.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\listStudentForm.cs",
-              "RelativeDocumentMoniker": "Login_Day2\\listStudentForm.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\listStudentForm.cs",
-              "RelativeToolTip": "Login_Day2\\listStudentForm.cs",
-              "ViewState": "AgIAAOIAAAAAAAAAAAAqwBEBAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T07:48:55.861Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ForgetPassword.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\ForgetPassword.cs",
-              "RelativeDocumentMoniker": "Login_Day2\\ForgetPassword.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\ForgetPassword.cs [Design]",
-              "RelativeToolTip": "Login_Day2\\ForgetPassword.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T15:12:35.803Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "NewUserForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\NewUserForm.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\NewUserForm.cs",
               "RelativeDocumentMoniker": "Login_Day2\\NewUserForm.cs",
               "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\NewUserForm.cs [Design]",
-              "RelativeToolTip": "Login_Day2\\NewUserForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\Login_Day2\\Login_Day2\\NewUserForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-01T15:27:16.008Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "updateDeleteStudentForm.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\updateDeleteStudentForm.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\updateDeleteStudentForm.cs",
               "RelativeDocumentMoniker": "Login_Day2\\updateDeleteStudentForm.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\updateDeleteStudentForm.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\updateDeleteStudentForm.cs",
               "RelativeToolTip": "Login_Day2\\updateDeleteStudentForm.cs",
               "ViewState": "AgIAAIIAAAAAAAAAAAAawH4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T08:17:14.874Z"
+              "WhenOpened": "2025-03-04T08:17:14.874Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "packages.config",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\packages.config",
-              "RelativeDocumentMoniker": "Login_Day2\\packages.config",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\packages.config",
-              "RelativeToolTip": "Login_Day2\\packages.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-03-11T12:55:03.548Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ResetPassword.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\ResetPassword.cs",
-              "RelativeDocumentMoniker": "Login_Day2\\ResetPassword.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\ResetPassword.cs [Design]",
-              "RelativeToolTip": "Login_Day2\\ResetPassword.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T15:44:41.89Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\Form1.cs",
               "RelativeDocumentMoniker": "Login_Day2\\Form1.cs",
               "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\Form1.cs [Design]",
-              "RelativeToolTip": "Login_Day2\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\Login_Day2\\Login_Day2\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T06:34:47.008Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\Form1.cs",
               "RelativeDocumentMoniker": "Login_Day2\\Form1.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\Form1.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\Form1.cs",
               "RelativeToolTip": "Login_Day2\\Form1.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAArwDgAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -390,23 +465,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\Program.cs",
-              "RelativeDocumentMoniker": "Login_Day2\\Program.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\Program.cs",
-              "RelativeToolTip": "Login_Day2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T02:48:18.095Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "NewUserForm.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\NewUserForm.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\NewUserForm.cs",
               "RelativeDocumentMoniker": "Login_Day2\\NewUserForm.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\NewUserForm.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\NewUserForm.cs",
               "RelativeToolTip": "Login_Day2\\NewUserForm.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAADgvyYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -414,47 +477,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "ForgetPassword.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\ForgetPassword.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\ForgetPassword.cs",
               "RelativeDocumentMoniker": "Login_Day2\\ForgetPassword.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\ForgetPassword.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\ForgetPassword.cs",
               "RelativeToolTip": "Login_Day2\\ForgetPassword.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAwwAAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T15:32:42.581Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ResetPassword.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\ResetPassword.cs",
-              "RelativeDocumentMoniker": "Login_Day2\\ResetPassword.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\ResetPassword.cs",
-              "RelativeToolTip": "Login_Day2\\ResetPassword.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAIAwwB4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T15:48:31.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "myDBDataSet_Student.xss",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\myDBDataSet_Student.xss",
-              "RelativeDocumentMoniker": "Login_Day2\\myDBDataSet_Student.xss",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\myDBDataSet_Student.xss",
-              "RelativeToolTip": "Login_Day2\\myDBDataSet_Student.xss",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEQSURBVDhPpZIxDoIwFIYfbsAiNxBu4KKwMnMBmDyCJxFXndy4AHcgunADdGdAE4EwVV4pWqEgiV/y0uZ/7Z\u002B\u002B1wdjlGW5KYoiroN0IsYcEEIkdrZHfchPkmQbRREEQcDUBtd1wbIsMAxjz6Rvsiybp2lKDocjuWcPYfg7n75mxu4IyfOc7fo8WW6sBOI4DugLHVbrNVMbLuczXG9XCMPw2wAvse0bNBkCDXol4IU2pjDagyn0DPBZ/PoLaoC1i\u002BpH0EhkpqoqXWkT244PgQZ83jRN8DzvM0hoYNs2P6rvGNCbUa6ZoUBdOBRFEc5HVVUa5upYyrJ8Qo32oH1et4yurmnanW44/v5GaaiEaaUBvACMFdHTTBiv\u002BAAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-03-11T04:40:06.015Z"
+              "WhenOpened": "2025-03-13T15:32:42.581Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
+              "Title": "ResetPassword.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\ResetPassword.cs",
+              "RelativeDocumentMoniker": "Login_Day2\\ResetPassword.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\ResetPassword.cs",
+              "RelativeToolTip": "Login_Day2\\ResetPassword.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIAwwB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:48:31.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "myDBDataSet_Student.xss",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\myDBDataSet_Student.xss",
+              "RelativeDocumentMoniker": "Login_Day2\\myDBDataSet_Student.xss",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\myDBDataSet_Student.xss",
+              "RelativeToolTip": "Login_Day2\\myDBDataSet_Student.xss",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEQSURBVDhPpZIxDoIwFIYfbsAiNxBu4KKwMnMBmDyCJxFXndy4AHcgunADdGdAE4EwVV4pWqEgiV/y0uZ/7Z\u002B\u002B1wdjlGW5KYoiroN0IsYcEEIkdrZHfchPkmQbRREEQcDUBtd1wbIsMAxjz6Rvsiybp2lKDocjuWcPYfg7n75mxu4IyfOc7fo8WW6sBOI4DugLHVbrNVMbLuczXG9XCMPw2wAvse0bNBkCDXol4IU2pjDagyn0DPBZ/PoLaoC1i\u002BpH0EhkpqoqXWkT244PgQZ83jRN8DzvM0hoYNs2P6rvGNCbUa6ZoUBdOBRFEc5HVVUa5upYyrJ8Qo32oH1et4yurmnanW44/v5GaaiEaaUBvACMFdHTTBiv\u002BAAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-03-11T04:40:06.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "NewUserForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\NewUserForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\NewUserForm.Designer.cs",
               "RelativeDocumentMoniker": "Login_Day2\\NewUserForm.Designer.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\NewUserForm.Designer.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\NewUserForm.Designer.cs",
               "RelativeToolTip": "Login_Day2\\NewUserForm.Designer.cs",
               "ViewState": "AgIAAKQAAAAAAAAAAIAwwLIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -462,11 +528,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "MY_DB.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\MY_DB.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\MY_DB.cs",
               "RelativeDocumentMoniker": "Login_Day2\\MY_DB.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\MY_DB.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\MY_DB.cs",
               "RelativeToolTip": "Login_Day2\\MY_DB.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -474,15 +540,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "ForgetPassword.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\ForgetPassword.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\ForgetPassword.Designer.cs",
               "RelativeDocumentMoniker": "Login_Day2\\ForgetPassword.Designer.cs",
-              "ToolTip": "C:\\Users\\nguye\\Desktop\\Login_Day2\\Login_Day2\\ForgetPassword.Designer.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Login2\\Login_Day2\\ForgetPassword.Designer.cs",
               "RelativeToolTip": "Login_Day2\\ForgetPassword.Designer.cs",
               "ViewState": "AgIAAF0AAAAAAAAAAIAwwG4AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T15:34:24.704Z"
+              "WhenOpened": "2025-03-13T15:34:24.704Z",
+              "EditorCaption": ""
             }
           ]
         }

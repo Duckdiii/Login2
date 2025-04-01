@@ -46,5 +46,29 @@ namespace Login_Day2
             ManageStudentForm mStdForm = new ManageStudentForm();
             mStdForm.Show(this);
         }
+
+        private void printToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PrinterStudentsForm PrintStdForm = new PrinterStudentsForm();
+            PrintStdForm.Show();
+        }
+
+        private void addCourse_ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddCourse addCourse = new AddCourse();
+            addCourse.Show();
+        }
+
+        private void remove_CourseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RemoveCourseForm reCourse = new RemoveCourseForm();
+            reCourse.Show();
+        }
+
+        private void editCourse_ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            EditCourseForm editCourse = new EditCourseForm();
+            editCourse.Show();
+        }
     }
 }

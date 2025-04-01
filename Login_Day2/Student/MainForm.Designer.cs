@@ -37,6 +37,11 @@
             this.manageStudentFormToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.printToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cOURSEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addCourse_ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.remove_CourseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.editCourse_ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.manageCourses_ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.print_ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sCOREToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
@@ -108,12 +113,52 @@
             this.printToolStripMenuItem.Name = "printToolStripMenuItem";
             this.printToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.printToolStripMenuItem.Text = "Print";
+            this.printToolStripMenuItem.Click += new System.EventHandler(this.printToolStripMenuItem_Click);
             // 
             // cOURSEToolStripMenuItem
             // 
+            this.cOURSEToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.addCourse_ToolStripMenuItem,
+            this.remove_CourseToolStripMenuItem,
+            this.editCourse_ToolStripMenuItem,
+            this.manageCourses_ToolStripMenuItem,
+            this.print_ToolStripMenuItem});
             this.cOURSEToolStripMenuItem.Name = "cOURSEToolStripMenuItem";
             this.cOURSEToolStripMenuItem.Size = new System.Drawing.Size(63, 20);
             this.cOURSEToolStripMenuItem.Text = "COURSE";
+            // 
+            // addCourse_ToolStripMenuItem
+            // 
+            this.addCourse_ToolStripMenuItem.Name = "addCourse_ToolStripMenuItem";
+            this.addCourse_ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.addCourse_ToolStripMenuItem.Text = "Add Course";
+            this.addCourse_ToolStripMenuItem.Click += new System.EventHandler(this.addCourse_ToolStripMenuItem_Click);
+            // 
+            // remove_CourseToolStripMenuItem
+            // 
+            this.remove_CourseToolStripMenuItem.Name = "remove_CourseToolStripMenuItem";
+            this.remove_CourseToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.remove_CourseToolStripMenuItem.Text = "Remove Course";
+            this.remove_CourseToolStripMenuItem.Click += new System.EventHandler(this.remove_CourseToolStripMenuItem_Click);
+            // 
+            // editCourse_ToolStripMenuItem
+            // 
+            this.editCourse_ToolStripMenuItem.Name = "editCourse_ToolStripMenuItem";
+            this.editCourse_ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.editCourse_ToolStripMenuItem.Text = "Edit Course";
+            this.editCourse_ToolStripMenuItem.Click += new System.EventHandler(this.editCourse_ToolStripMenuItem_Click);
+            // 
+            // manageCourses_ToolStripMenuItem
+            // 
+            this.manageCourses_ToolStripMenuItem.Name = "manageCourses_ToolStripMenuItem";
+            this.manageCourses_ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.manageCourses_ToolStripMenuItem.Text = "Manage Courses";
+            // 
+            // print_ToolStripMenuItem
+            // 
+            this.print_ToolStripMenuItem.Name = "print_ToolStripMenuItem";
+            this.print_ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.print_ToolStripMenuItem.Text = "Print";
             // 
             // sCOREToolStripMenuItem
             // 
@@ -147,5 +192,10 @@
         private System.Windows.Forms.ToolStripMenuItem printToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cOURSEToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sCOREToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem addCourse_ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem remove_CourseToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem editCourse_ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem manageCourses_ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem print_ToolStripMenuItem;
     }
 }

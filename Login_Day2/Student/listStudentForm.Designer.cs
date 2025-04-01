@@ -44,19 +44,18 @@
             this.refresh_btn = new System.Windows.Forms.Button();
             this.export_btn = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.check_btn = new System.Windows.Forms.Button();
-            this.all_radioButton = new System.Windows.Forms.RadioButton();
-            this.female_radioButton = new System.Windows.Forms.RadioButton();
             this.male_radioButton = new System.Windows.Forms.RadioButton();
-            this.label1 = new System.Windows.Forms.Label();
-            this.Yes_radioButton = new System.Windows.Forms.RadioButton();
-            this.No_radioButton = new System.Windows.Forms.RadioButton();
-            this.label2 = new System.Windows.Forms.Label();
-            this.FirstSelection_Birthday_dateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.SecondSelection_Birthday_dateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.search_btn = new System.Windows.Forms.Button();
+            this.female_radioButton = new System.Windows.Forms.RadioButton();
+            this.all_radioButton = new System.Windows.Forms.RadioButton();
+            this.check_btn = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
+            this.SecondSelection_Birthday_dateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.FirstSelection_Birthday_dateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.label2 = new System.Windows.Forms.Label();
+            this.No_radioButton = new System.Windows.Forms.RadioButton();
+            this.Yes_radioButton = new System.Windows.Forms.RadioButton();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_StudentList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stdBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.myDBDataSet_Student)).BeginInit();
@@ -183,42 +182,16 @@
             this.panel1.Size = new System.Drawing.Size(846, 80);
             this.panel1.TabIndex = 3;
             // 
-            // panel2
+            // male_radioButton
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.search_btn);
-            this.panel2.Controls.Add(this.SecondSelection_Birthday_dateTimePicker);
-            this.panel2.Controls.Add(this.FirstSelection_Birthday_dateTimePicker);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.No_radioButton);
-            this.panel2.Controls.Add(this.Yes_radioButton);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(249, 3);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(405, 74);
-            this.panel2.TabIndex = 0;
-            // 
-            // check_btn
-            // 
-            this.check_btn.Location = new System.Drawing.Point(692, 24);
-            this.check_btn.Name = "check_btn";
-            this.check_btn.Size = new System.Drawing.Size(75, 23);
-            this.check_btn.TabIndex = 1;
-            this.check_btn.Text = "Check";
-            this.check_btn.UseVisualStyleBackColor = true;
-            this.check_btn.Click += new System.EventHandler(this.check_btn_Click);
-            // 
-            // all_radioButton
-            // 
-            this.all_radioButton.AutoSize = true;
-            this.all_radioButton.Location = new System.Drawing.Point(21, 30);
-            this.all_radioButton.Name = "all_radioButton";
-            this.all_radioButton.Size = new System.Drawing.Size(36, 17);
-            this.all_radioButton.TabIndex = 3;
-            this.all_radioButton.TabStop = true;
-            this.all_radioButton.Text = "All";
-            this.all_radioButton.UseVisualStyleBackColor = true;
+            this.male_radioButton.AutoSize = true;
+            this.male_radioButton.Location = new System.Drawing.Point(154, 30);
+            this.male_radioButton.Name = "male_radioButton";
+            this.male_radioButton.Size = new System.Drawing.Size(48, 17);
+            this.male_radioButton.TabIndex = 5;
+            this.male_radioButton.TabStop = true;
+            this.male_radioButton.Text = "Male";
+            this.male_radioButton.UseVisualStyleBackColor = true;
             // 
             // female_radioButton
             // 
@@ -231,25 +204,84 @@
             this.female_radioButton.Text = "Female";
             this.female_radioButton.UseVisualStyleBackColor = true;
             // 
-            // male_radioButton
+            // all_radioButton
             // 
-            this.male_radioButton.AutoSize = true;
-            this.male_radioButton.Location = new System.Drawing.Point(154, 30);
-            this.male_radioButton.Name = "male_radioButton";
-            this.male_radioButton.Size = new System.Drawing.Size(48, 17);
-            this.male_radioButton.TabIndex = 5;
-            this.male_radioButton.TabStop = true;
-            this.male_radioButton.Text = "Male";
-            this.male_radioButton.UseVisualStyleBackColor = true;
+            this.all_radioButton.AutoSize = true;
+            this.all_radioButton.Location = new System.Drawing.Point(21, 30);
+            this.all_radioButton.Name = "all_radioButton";
+            this.all_radioButton.Size = new System.Drawing.Size(36, 17);
+            this.all_radioButton.TabIndex = 3;
+            this.all_radioButton.TabStop = true;
+            this.all_radioButton.Text = "All";
+            this.all_radioButton.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // check_btn
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(16, 7);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Use data range:";
+            this.check_btn.Location = new System.Drawing.Point(692, 24);
+            this.check_btn.Name = "check_btn";
+            this.check_btn.Size = new System.Drawing.Size(75, 23);
+            this.check_btn.TabIndex = 1;
+            this.check_btn.Text = "Check";
+            this.check_btn.UseVisualStyleBackColor = true;
+            this.check_btn.Click += new System.EventHandler(this.check_btn_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.SecondSelection_Birthday_dateTimePicker);
+            this.panel2.Controls.Add(this.FirstSelection_Birthday_dateTimePicker);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.No_radioButton);
+            this.panel2.Controls.Add(this.Yes_radioButton);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Location = new System.Drawing.Point(249, 3);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(405, 74);
+            this.panel2.TabIndex = 0;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(112, 41);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(26, 13);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "And";
+            // 
+            // SecondSelection_Birthday_dateTimePicker
+            // 
+            this.SecondSelection_Birthday_dateTimePicker.Location = new System.Drawing.Point(144, 51);
+            this.SecondSelection_Birthday_dateTimePicker.Name = "SecondSelection_Birthday_dateTimePicker";
+            this.SecondSelection_Birthday_dateTimePicker.Size = new System.Drawing.Size(200, 20);
+            this.SecondSelection_Birthday_dateTimePicker.TabIndex = 11;
+            // 
+            // FirstSelection_Birthday_dateTimePicker
+            // 
+            this.FirstSelection_Birthday_dateTimePicker.Location = new System.Drawing.Point(144, 28);
+            this.FirstSelection_Birthday_dateTimePicker.Name = "FirstSelection_Birthday_dateTimePicker";
+            this.FirstSelection_Birthday_dateTimePicker.Size = new System.Drawing.Size(200, 20);
+            this.FirstSelection_Birthday_dateTimePicker.TabIndex = 10;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(16, 28);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(92, 13);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Birthday between:";
+            // 
+            // No_radioButton
+            // 
+            this.No_radioButton.AutoSize = true;
+            this.No_radioButton.Location = new System.Drawing.Point(209, 7);
+            this.No_radioButton.Name = "No_radioButton";
+            this.No_radioButton.Size = new System.Drawing.Size(39, 17);
+            this.No_radioButton.TabIndex = 7;
+            this.No_radioButton.TabStop = true;
+            this.No_radioButton.Text = "No";
+            this.No_radioButton.UseVisualStyleBackColor = true;
             // 
             // Yes_radioButton
             // 
@@ -263,57 +295,14 @@
             this.Yes_radioButton.UseVisualStyleBackColor = true;
             this.Yes_radioButton.CheckedChanged += new System.EventHandler(this.Yes_radioButton_CheckedChanged);
             // 
-            // No_radioButton
+            // label1
             // 
-            this.No_radioButton.AutoSize = true;
-            this.No_radioButton.Location = new System.Drawing.Point(209, 7);
-            this.No_radioButton.Name = "No_radioButton";
-            this.No_radioButton.Size = new System.Drawing.Size(39, 17);
-            this.No_radioButton.TabIndex = 7;
-            this.No_radioButton.TabStop = true;
-            this.No_radioButton.Text = "No";
-            this.No_radioButton.UseVisualStyleBackColor = true;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(16, 28);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 13);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "Birthday between:";
-            // 
-            // FirstSelection_Birthday_dateTimePicker
-            // 
-            this.FirstSelection_Birthday_dateTimePicker.Location = new System.Drawing.Point(114, 28);
-            this.FirstSelection_Birthday_dateTimePicker.Name = "FirstSelection_Birthday_dateTimePicker";
-            this.FirstSelection_Birthday_dateTimePicker.Size = new System.Drawing.Size(200, 20);
-            this.FirstSelection_Birthday_dateTimePicker.TabIndex = 10;
-            // 
-            // SecondSelection_Birthday_dateTimePicker
-            // 
-            this.SecondSelection_Birthday_dateTimePicker.Location = new System.Drawing.Point(114, 51);
-            this.SecondSelection_Birthday_dateTimePicker.Name = "SecondSelection_Birthday_dateTimePicker";
-            this.SecondSelection_Birthday_dateTimePicker.Size = new System.Drawing.Size(200, 20);
-            this.SecondSelection_Birthday_dateTimePicker.TabIndex = 11;
-            // 
-            // search_btn
-            // 
-            this.search_btn.Location = new System.Drawing.Point(320, 21);
-            this.search_btn.Name = "search_btn";
-            this.search_btn.Size = new System.Drawing.Size(75, 23);
-            this.search_btn.TabIndex = 6;
-            this.search_btn.Text = "Search";
-            this.search_btn.UseVisualStyleBackColor = true;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(82, 41);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(26, 13);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "And";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(16, 7);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(83, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Use data range:";
             // 
             // listStudentForm
             // 
@@ -364,7 +353,6 @@
         private System.Windows.Forms.RadioButton No_radioButton;
         private System.Windows.Forms.RadioButton Yes_radioButton;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button search_btn;
         private System.Windows.Forms.DateTimePicker SecondSelection_Birthday_dateTimePicker;
         private System.Windows.Forms.DateTimePicker FirstSelection_Birthday_dateTimePicker;
         private System.Windows.Forms.Label label3;
