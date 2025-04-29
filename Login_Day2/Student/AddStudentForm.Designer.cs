@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.StudentID_textBox = new System.Windows.Forms.TextBox();
             this.Male_radioButton = new System.Windows.Forms.RadioButton();
             this.FirstName_textBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -47,10 +46,10 @@
             this.Cancel_btn = new System.Windows.Forms.Button();
             this.AddStudent_btn = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
-            this.StudentPicture_pictureBox = new System.Windows.Forms.PictureBox();
             this.Import_btn = new System.Windows.Forms.Button();
             this.btnNextStd_btn = new System.Windows.Forms.Button();
-            this.ListFoundStudents_listBox = new System.Windows.Forms.ListBox();
+            this.StudentPicture_pictureBox = new System.Windows.Forms.PictureBox();
+            this.StudentID_comboBox = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.StudentPicture_pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,17 +61,6 @@
             this.label1.Size = new System.Drawing.Size(61, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Student ID:";
-            // 
-            // StudentID_textBox
-            // 
-            this.StudentID_textBox.Location = new System.Drawing.Point(98, 45);
-            this.StudentID_textBox.Name = "StudentID_textBox";
-            this.StudentID_textBox.Size = new System.Drawing.Size(175, 20);
-            this.StudentID_textBox.TabIndex = 1;
-            this.StudentID_textBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.StudentID_textBox_MouseClick);
-            this.StudentID_textBox.TextChanged += new System.EventHandler(this.StudentID_textBox_TextChanged);
-            this.StudentID_textBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.StudentID_textBox_KeyDown);
-            this.StudentID_textBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.StudentID_textBox_KeyPress);
             // 
             // Male_radioButton
             // 
@@ -230,15 +218,6 @@
             this.label8.TabIndex = 20;
             this.label8.Text = "Gender:";
             // 
-            // StudentPicture_pictureBox
-            // 
-            this.StudentPicture_pictureBox.Location = new System.Drawing.Point(98, 280);
-            this.StudentPicture_pictureBox.Name = "StudentPicture_pictureBox";
-            this.StudentPicture_pictureBox.Size = new System.Drawing.Size(175, 99);
-            this.StudentPicture_pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.StudentPicture_pictureBox.TabIndex = 16;
-            this.StudentPicture_pictureBox.TabStop = false;
-            // 
             // Import_btn
             // 
             this.Import_btn.Location = new System.Drawing.Point(98, 414);
@@ -259,22 +238,32 @@
             this.btnNextStd_btn.UseVisualStyleBackColor = true;
             this.btnNextStd_btn.Click += new System.EventHandler(this.btnNextStd_btn_Click);
             // 
-            // ListFoundStudents_listBox
+            // StudentPicture_pictureBox
             // 
-            this.ListFoundStudents_listBox.FormattingEnabled = true;
-            this.ListFoundStudents_listBox.Location = new System.Drawing.Point(98, 71);
-            this.ListFoundStudents_listBox.Name = "ListFoundStudents_listBox";
-            this.ListFoundStudents_listBox.Size = new System.Drawing.Size(235, 95);
-            this.ListFoundStudents_listBox.TabIndex = 24;
-            this.ListFoundStudents_listBox.Visible = false;
-            this.ListFoundStudents_listBox.SelectedIndexChanged += new System.EventHandler(this.ListFoundStudents_listBox_SelectedIndexChanged);
+            this.StudentPicture_pictureBox.Location = new System.Drawing.Point(98, 280);
+            this.StudentPicture_pictureBox.Name = "StudentPicture_pictureBox";
+            this.StudentPicture_pictureBox.Size = new System.Drawing.Size(175, 99);
+            this.StudentPicture_pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.StudentPicture_pictureBox.TabIndex = 16;
+            this.StudentPicture_pictureBox.TabStop = false;
+            // 
+            // StudentID_comboBox
+            // 
+            this.StudentID_comboBox.FormattingEnabled = true;
+            this.StudentID_comboBox.Location = new System.Drawing.Point(98, 45);
+            this.StudentID_comboBox.Name = "StudentID_comboBox";
+            this.StudentID_comboBox.Size = new System.Drawing.Size(121, 21);
+            this.StudentID_comboBox.TabIndex = 23;
+            this.StudentID_comboBox.SelectedIndexChanged += new System.EventHandler(this.StudentID_comboBox_SelectedIndexChanged);
+            this.StudentID_comboBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.StudentID_comboBox_KeyPress);
+            this.StudentID_comboBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.StudentID_comboBox_KeyUp);
             // 
             // AddStudentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(360, 541);
-            this.Controls.Add(this.ListFoundStudents_listBox);
+            this.Controls.Add(this.StudentID_comboBox);
             this.Controls.Add(this.btnNextStd_btn);
             this.Controls.Add(this.Import_btn);
             this.Controls.Add(this.label8);
@@ -295,7 +284,6 @@
             this.Controls.Add(this.FirstName_textBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Male_radioButton);
-            this.Controls.Add(this.StudentID_textBox);
             this.Controls.Add(this.label1);
             this.Name = "AddStudentForm";
             this.Text = "AddStudentForm_23110009_NguyenDucDuy";
@@ -309,7 +297,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox StudentID_textBox;
         private System.Windows.Forms.RadioButton Male_radioButton;
         private System.Windows.Forms.TextBox FirstName_textBox;
         private System.Windows.Forms.Label label2;
@@ -330,6 +317,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button Import_btn;
         private System.Windows.Forms.Button btnNextStd_btn;
-        private System.Windows.Forms.ListBox ListFoundStudents_listBox;
+        private System.Windows.Forms.ComboBox StudentID_comboBox;
     }
 }

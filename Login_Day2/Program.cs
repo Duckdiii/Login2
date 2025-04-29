@@ -16,7 +16,7 @@ namespace Login_Day2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginPage());
+            Application.Run(new MainForm());
         }
     }
 }

@@ -66,7 +66,7 @@ namespace Login_Day2
         {
             dataGridView_StudentList.ReadOnly = true;
             dataGridView_StudentList.RowTemplate.Height = 80;
-            dataGridView_StudentList.DataSource = STUDENT.getStudents(command);
+            dataGridView_StudentList.DataSource = STUDENT.getStudentsWithCourse(command);
 
             DataGridViewImageColumn picCol = (DataGridViewImageColumn)dataGridView_StudentList.Columns[7];
             picCol.ImageLayout = DataGridViewImageCellLayout.Stretch;
@@ -110,7 +110,7 @@ namespace Login_Day2
         private void dataGridView_StudentList_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             updateDeleteStudentForm updateDelStdF = new updateDeleteStudentForm();
-            updateDelStdF.StudentID_textBox.Text = dataGridView_StudentList.CurrentRow.Cells[0].Value.ToString().Trim();
+            updateDelStdF.StudentID_comboBox.Text = dataGridView_StudentList.CurrentRow.Cells[0].Value.ToString().Trim();
             updateDelStdF.firstName_textBox.Text = dataGridView_StudentList.CurrentRow.Cells[1].Value.ToString().Trim();
             updateDelStdF.lastName_textBox.Text = dataGridView_StudentList.CurrentRow.Cells[2].Value.ToString().Trim();
             updateDelStdF.dateOfBirth_dateTimePicker.Value = (DateTime)dataGridView_StudentList.CurrentRow.Cells[3].Value;
@@ -156,13 +156,13 @@ namespace Login_Day2
             try
             {
                 // Đường dẫn file để lưu kết quả
-                string path = @"D:\HKL_2018\OOP\the-complete-c-sharp-developer-course [FreeTutorials.Us]\12\BackUp\KT_T4_TS\yourname.txt";
+                string path = @"C:\Users\nguye\Desktop\SourceData\Win\ListStdInformation.txt";
 
                 // Lấy dữ liệu từ DataGridView (không cần truy vấn lại từ database)
                 var studentData = new StringBuilder();
 
                 // Tiêu đề báo cáo
-                studentData.AppendLine("ID Number\tName\tDepartment");
+                studentData.AppendLine("ID Number\tName\tDepartment\tAddress");
                 studentData.AppendLine("=========================================================");
 
                 // Duyệt qua từng dòng trong DataGridView
@@ -175,9 +175,10 @@ namespace Login_Day2
                         string id = row.Cells[0].Value?.ToString() ?? "N/A";
                         string name = row.Cells[1].Value?.ToString() ?? "N/A";
                         string department = row.Cells[2].Value?.ToString() ?? "N/A";
+                        string address = row.Cells[6].Value?.ToString() ?? "N/A";
 
                         // Thêm vào chuỗi kết quả
-                        studentData.AppendLine($"{id}\t{name}\t{department}");
+                        studentData.AppendLine($"{id}\t{name}\t{department}\t{address}");
                         studentData.AppendLine("---------------------------------------------------------");
                     }
                 }

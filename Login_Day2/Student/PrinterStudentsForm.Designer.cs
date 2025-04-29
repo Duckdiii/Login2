@@ -47,14 +47,6 @@
             this.stdTableAdapter = new Login_Day2.myDBDataSet_StudentTableAdapters.stdTableAdapter();
             this.myDBDataSet_Student = new Login_Day2.myDBDataSet_Student();
             this.stdBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.pictureDataGridViewImageColumn = new System.Windows.Forms.DataGridViewImageColumn();
-            this.addressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.phoneDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.genderDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.bdateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridView_StudentList = new System.Windows.Forms.DataGridView();
             this.printDialog1 = new System.Windows.Forms.PrintDialog();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
@@ -232,75 +224,12 @@
             this.stdBindingSource.DataMember = "std";
             this.stdBindingSource.DataSource = this.myDBDataSet_Student;
             // 
-            // pictureDataGridViewImageColumn
-            // 
-            this.pictureDataGridViewImageColumn.DataPropertyName = "picture";
-            this.pictureDataGridViewImageColumn.HeaderText = "Picture";
-            this.pictureDataGridViewImageColumn.Name = "pictureDataGridViewImageColumn";
-            // 
-            // addressDataGridViewTextBoxColumn
-            // 
-            this.addressDataGridViewTextBoxColumn.DataPropertyName = "address";
-            this.addressDataGridViewTextBoxColumn.HeaderText = "Address";
-            this.addressDataGridViewTextBoxColumn.Name = "addressDataGridViewTextBoxColumn";
-            this.addressDataGridViewTextBoxColumn.Width = 101;
-            // 
-            // phoneDataGridViewTextBoxColumn
-            // 
-            this.phoneDataGridViewTextBoxColumn.DataPropertyName = "phone";
-            this.phoneDataGridViewTextBoxColumn.HeaderText = "Phone Number";
-            this.phoneDataGridViewTextBoxColumn.Name = "phoneDataGridViewTextBoxColumn";
-            // 
-            // genderDataGridViewTextBoxColumn
-            // 
-            this.genderDataGridViewTextBoxColumn.DataPropertyName = "gender";
-            this.genderDataGridViewTextBoxColumn.HeaderText = "Gender";
-            this.genderDataGridViewTextBoxColumn.Name = "genderDataGridViewTextBoxColumn";
-            this.genderDataGridViewTextBoxColumn.Width = 101;
-            // 
-            // bdateDataGridViewTextBoxColumn
-            // 
-            this.bdateDataGridViewTextBoxColumn.DataPropertyName = "bdate";
-            this.bdateDataGridViewTextBoxColumn.HeaderText = "Day of Birth";
-            this.bdateDataGridViewTextBoxColumn.Name = "bdateDataGridViewTextBoxColumn";
-            // 
-            // lnameDataGridViewTextBoxColumn
-            // 
-            this.lnameDataGridViewTextBoxColumn.DataPropertyName = "lname";
-            this.lnameDataGridViewTextBoxColumn.HeaderText = "Last Name";
-            this.lnameDataGridViewTextBoxColumn.Name = "lnameDataGridViewTextBoxColumn";
-            this.lnameDataGridViewTextBoxColumn.Width = 101;
-            // 
-            // fnameDataGridViewTextBoxColumn
-            // 
-            this.fnameDataGridViewTextBoxColumn.DataPropertyName = "fname";
-            this.fnameDataGridViewTextBoxColumn.HeaderText = "First Name";
-            this.fnameDataGridViewTextBoxColumn.Name = "fnameDataGridViewTextBoxColumn";
-            // 
-            // idDataGridViewTextBoxColumn
-            // 
-            this.idDataGridViewTextBoxColumn.DataPropertyName = "Id";
-            this.idDataGridViewTextBoxColumn.HeaderText = "Student ID";
-            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
-            this.idDataGridViewTextBoxColumn.Width = 101;
-            // 
             // dataGridView_StudentList
             // 
-            this.dataGridView_StudentList.AutoGenerateColumns = false;
             this.dataGridView_StudentList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView_StudentList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idDataGridViewTextBoxColumn,
-            this.fnameDataGridViewTextBoxColumn,
-            this.lnameDataGridViewTextBoxColumn,
-            this.bdateDataGridViewTextBoxColumn,
-            this.genderDataGridViewTextBoxColumn,
-            this.phoneDataGridViewTextBoxColumn,
-            this.addressDataGridViewTextBoxColumn,
-            this.pictureDataGridViewImageColumn});
-            this.dataGridView_StudentList.DataSource = this.stdBindingSource;
             this.dataGridView_StudentList.Location = new System.Drawing.Point(12, 110);
             this.dataGridView_StudentList.Name = "dataGridView_StudentList";
-            this.dataGridView_StudentList.Size = new System.Drawing.Size(847, 288);
+            this.dataGridView_StudentList.Size = new System.Drawing.Size(959, 288);
             this.dataGridView_StudentList.TabIndex = 4;
             this.dataGridView_StudentList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_StudentList_CellContentClick);
             // 
@@ -313,7 +242,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(871, 450);
+            this.ClientSize = new System.Drawing.Size(983, 450);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.SaveToTextFile_btn);
             this.Controls.Add(this.Print_btn);
@@ -352,14 +281,6 @@
         private myDBDataSet_StudentTableAdapters.stdTableAdapter stdTableAdapter;
         private myDBDataSet_Student myDBDataSet_Student;
         private System.Windows.Forms.BindingSource stdBindingSource;
-        private System.Windows.Forms.DataGridViewImageColumn pictureDataGridViewImageColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn addressDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn phoneDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn genderDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn bdateDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn lnameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn fnameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridView dataGridView_StudentList;
         private System.Windows.Forms.PrintDialog printDialog1;
         private System.Drawing.Printing.PrintDocument printDocument1;

@@ -30,14 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dataGridView_StudentList = new System.Windows.Forms.DataGridView();
-            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.bdateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.genderDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.phoneDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.addressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pictureDataGridViewImageColumn = new System.Windows.Forms.DataGridViewImageColumn();
             this.stdBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.myDBDataSet_Student = new Login_Day2.myDBDataSet_Student();
             this.stdTableAdapter = new Login_Day2.myDBDataSet_StudentTableAdapters.stdTableAdapter();
@@ -56,6 +48,16 @@
             this.No_radioButton = new System.Windows.Forms.RadioButton();
             this.Yes_radioButton = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
+            this.Import_btn = new System.Windows.Forms.Button();
+            this.Delete_btn = new System.Windows.Forms.Button();
+            this.StudentID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FirstName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.LastName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DayOfBirth = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Gender = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PhoneNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Address = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Picture = new System.Windows.Forms.DataGridViewImageColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_StudentList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stdBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.myDBDataSet_Student)).BeginInit();
@@ -68,14 +70,14 @@
             this.dataGridView_StudentList.AutoGenerateColumns = false;
             this.dataGridView_StudentList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_StudentList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idDataGridViewTextBoxColumn,
-            this.fnameDataGridViewTextBoxColumn,
-            this.lnameDataGridViewTextBoxColumn,
-            this.bdateDataGridViewTextBoxColumn,
-            this.genderDataGridViewTextBoxColumn,
-            this.phoneDataGridViewTextBoxColumn,
-            this.addressDataGridViewTextBoxColumn,
-            this.pictureDataGridViewImageColumn});
+            this.StudentID,
+            this.FirstName,
+            this.LastName,
+            this.DayOfBirth,
+            this.Gender,
+            this.PhoneNumber,
+            this.Address,
+            this.Picture});
             this.dataGridView_StudentList.DataSource = this.stdBindingSource;
             this.dataGridView_StudentList.Location = new System.Drawing.Point(12, 90);
             this.dataGridView_StudentList.Name = "dataGridView_StudentList";
@@ -83,58 +85,6 @@
             this.dataGridView_StudentList.TabIndex = 0;
             this.dataGridView_StudentList.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_StudentList_CellContentClick);
             this.dataGridView_StudentList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_StudentList_CellContentClick);
-            // 
-            // idDataGridViewTextBoxColumn
-            // 
-            this.idDataGridViewTextBoxColumn.DataPropertyName = "Id";
-            this.idDataGridViewTextBoxColumn.HeaderText = "Student ID";
-            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
-            this.idDataGridViewTextBoxColumn.Width = 101;
-            // 
-            // fnameDataGridViewTextBoxColumn
-            // 
-            this.fnameDataGridViewTextBoxColumn.DataPropertyName = "fname";
-            this.fnameDataGridViewTextBoxColumn.HeaderText = "First Name";
-            this.fnameDataGridViewTextBoxColumn.Name = "fnameDataGridViewTextBoxColumn";
-            // 
-            // lnameDataGridViewTextBoxColumn
-            // 
-            this.lnameDataGridViewTextBoxColumn.DataPropertyName = "lname";
-            this.lnameDataGridViewTextBoxColumn.HeaderText = "Last Name";
-            this.lnameDataGridViewTextBoxColumn.Name = "lnameDataGridViewTextBoxColumn";
-            this.lnameDataGridViewTextBoxColumn.Width = 101;
-            // 
-            // bdateDataGridViewTextBoxColumn
-            // 
-            this.bdateDataGridViewTextBoxColumn.DataPropertyName = "bdate";
-            this.bdateDataGridViewTextBoxColumn.HeaderText = "Day of Birth";
-            this.bdateDataGridViewTextBoxColumn.Name = "bdateDataGridViewTextBoxColumn";
-            // 
-            // genderDataGridViewTextBoxColumn
-            // 
-            this.genderDataGridViewTextBoxColumn.DataPropertyName = "gender";
-            this.genderDataGridViewTextBoxColumn.HeaderText = "Gender";
-            this.genderDataGridViewTextBoxColumn.Name = "genderDataGridViewTextBoxColumn";
-            this.genderDataGridViewTextBoxColumn.Width = 101;
-            // 
-            // phoneDataGridViewTextBoxColumn
-            // 
-            this.phoneDataGridViewTextBoxColumn.DataPropertyName = "phone";
-            this.phoneDataGridViewTextBoxColumn.HeaderText = "Phone Number";
-            this.phoneDataGridViewTextBoxColumn.Name = "phoneDataGridViewTextBoxColumn";
-            // 
-            // addressDataGridViewTextBoxColumn
-            // 
-            this.addressDataGridViewTextBoxColumn.DataPropertyName = "address";
-            this.addressDataGridViewTextBoxColumn.HeaderText = "Address";
-            this.addressDataGridViewTextBoxColumn.Name = "addressDataGridViewTextBoxColumn";
-            this.addressDataGridViewTextBoxColumn.Width = 101;
-            // 
-            // pictureDataGridViewImageColumn
-            // 
-            this.pictureDataGridViewImageColumn.DataPropertyName = "picture";
-            this.pictureDataGridViewImageColumn.HeaderText = "Picture";
-            this.pictureDataGridViewImageColumn.Name = "pictureDataGridViewImageColumn";
             // 
             // stdBindingSource
             // 
@@ -162,7 +112,7 @@
             // 
             // export_btn
             // 
-            this.export_btn.Location = new System.Drawing.Point(13, 383);
+            this.export_btn.Location = new System.Drawing.Point(784, 384);
             this.export_btn.Name = "export_btn";
             this.export_btn.Size = new System.Drawing.Size(75, 23);
             this.export_btn.TabIndex = 2;
@@ -304,11 +254,85 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Use data range:";
             // 
+            // Import_btn
+            // 
+            this.Import_btn.Location = new System.Drawing.Point(12, 384);
+            this.Import_btn.Name = "Import_btn";
+            this.Import_btn.Size = new System.Drawing.Size(75, 23);
+            this.Import_btn.TabIndex = 4;
+            this.Import_btn.Text = "Import";
+            this.Import_btn.UseVisualStyleBackColor = true;
+            this.Import_btn.Click += new System.EventHandler(this.Import_btn_Click);
+            // 
+            // Delete_btn
+            // 
+            this.Delete_btn.Location = new System.Drawing.Point(689, 384);
+            this.Delete_btn.Name = "Delete_btn";
+            this.Delete_btn.Size = new System.Drawing.Size(75, 23);
+            this.Delete_btn.TabIndex = 5;
+            this.Delete_btn.Text = "Delete";
+            this.Delete_btn.UseVisualStyleBackColor = true;
+            this.Delete_btn.Click += new System.EventHandler(this.Delete_btn_Click);
+            // 
+            // StudentID
+            // 
+            this.StudentID.DataPropertyName = "Id";
+            this.StudentID.HeaderText = "Student ID";
+            this.StudentID.Name = "StudentID";
+            this.StudentID.Width = 101;
+            // 
+            // FirstName
+            // 
+            this.FirstName.DataPropertyName = "fname";
+            this.FirstName.HeaderText = "First Name";
+            this.FirstName.Name = "FirstName";
+            // 
+            // LastName
+            // 
+            this.LastName.DataPropertyName = "lname";
+            this.LastName.HeaderText = "Last Name";
+            this.LastName.Name = "LastName";
+            this.LastName.Width = 101;
+            // 
+            // DayOfBirth
+            // 
+            this.DayOfBirth.DataPropertyName = "bdate";
+            this.DayOfBirth.HeaderText = "Day of Birth";
+            this.DayOfBirth.Name = "DayOfBirth";
+            // 
+            // Gender
+            // 
+            this.Gender.DataPropertyName = "gender";
+            this.Gender.HeaderText = "Gender";
+            this.Gender.Name = "Gender";
+            this.Gender.Width = 101;
+            // 
+            // PhoneNumber
+            // 
+            this.PhoneNumber.DataPropertyName = "phone";
+            this.PhoneNumber.HeaderText = "Phone Number";
+            this.PhoneNumber.Name = "PhoneNumber";
+            // 
+            // Address
+            // 
+            this.Address.DataPropertyName = "address";
+            this.Address.HeaderText = "Address";
+            this.Address.Name = "Address";
+            this.Address.Width = 101;
+            // 
+            // Picture
+            // 
+            this.Picture.DataPropertyName = "picture";
+            this.Picture.HeaderText = "Picture";
+            this.Picture.Name = "Picture";
+            // 
             // listStudentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(871, 419);
+            this.Controls.Add(this.Delete_btn);
+            this.Controls.Add(this.Import_btn);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.export_btn);
             this.Controls.Add(this.refresh_btn);
@@ -333,14 +357,6 @@
         private myDBDataSet_Student myDBDataSet_Student;
         private System.Windows.Forms.BindingSource stdBindingSource;
         private myDBDataSet_StudentTableAdapters.stdTableAdapter stdTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn fnameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn lnameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn bdateDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn genderDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn phoneDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn addressDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewImageColumn pictureDataGridViewImageColumn;
         private System.Windows.Forms.Button refresh_btn;
         private System.Windows.Forms.Button export_btn;
         private System.Windows.Forms.Panel panel1;
@@ -356,5 +372,15 @@
         private System.Windows.Forms.DateTimePicker SecondSelection_Birthday_dateTimePicker;
         private System.Windows.Forms.DateTimePicker FirstSelection_Birthday_dateTimePicker;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button Import_btn;
+        private System.Windows.Forms.Button Delete_btn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn StudentID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FirstName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn LastName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DayOfBirth;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Gender;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PhoneNumber;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Address;
+        private System.Windows.Forms.DataGridViewImageColumn Picture;
     }
 }

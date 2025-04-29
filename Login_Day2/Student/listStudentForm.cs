@@ -8,6 +8,9 @@ using System.Windows.Forms;
 using Microsoft.Office.Interop.Word;
 using Xceed.Document.NET; // Xceed.Document.NET.Image
 using Xceed.Words.NET;
+using OfficeOpenXml;
+using System.Globalization;
+using System.Drawing.Imaging;
 
 namespace Login_Day2
 {
@@ -21,6 +24,7 @@ namespace Login_Day2
         public listStudentForm()
         {
             InitializeComponent();
+            ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
         }
 
         public listStudentForm(int? Id, string Fname, string Lname)
@@ -79,7 +83,7 @@ namespace Login_Day2
         private void dataGridView_StudentList_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             updateDeleteStudentForm updateDelStdF = new updateDeleteStudentForm();
-            updateDelStdF.StudentID_textBox.Text = dataGridView_StudentList.CurrentRow.Cells[0].Value.ToString().Trim();
+            updateDelStdF.StudentID_comboBox.Text = dataGridView_StudentList.CurrentRow.Cells[0].Value.ToString().Trim();
             updateDelStdF.firstName_textBox.Text = dataGridView_StudentList.CurrentRow.Cells[1].Value.ToString().Trim();
             updateDelStdF.lastName_textBox.Text = dataGridView_StudentList.CurrentRow.Cells[2].Value.ToString().Trim();
             updateDelStdF.dateOfBirth_dateTimePicker.Value = (DateTime)dataGridView_StudentList.CurrentRow.Cells[3].Value;
@@ -203,7 +207,7 @@ namespace Login_Day2
                             object cellValue = dataGridView_StudentList.Rows[i].Cells[j].Value;
                             if (cellValue != null && cellValue is DateTime date)
                             {
-                                table.Cell(i + 2, j + 1).Range.Text = date.ToString("dd/MM/yyyy"); // Chỉ hiển thị ngày/tháng/năm
+                                table.Cell(i + 2, j + 1).Range.Text = date.ToString("dd/MM/yyyy");
                             }
                             else
                             {
@@ -227,17 +231,18 @@ namespace Login_Day2
 
                 MessageBox.Show("Dữ liệu đã được xuất sang Word thành công!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            catch (Exception ex){
+            catch (Exception ex)
+            {
                 MessageBox.Show("Đã xảy ra lỗi khi xuất file Word: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-
             }
+
+        }
 
         private void check_btn_Click(object sender, EventArgs e)
         {
             string sex = null;
-            if (female_radioButton.Checked) sex = "Female";
-            else if (male_radioButton.Checked) sex = "Male";
+            if (female_radioButton.Checked) sex = "Nữ";
+            else if (male_radioButton.Checked) sex = "Nam";
 
             bool yesOrNo = Yes_radioButton.Checked;
             DateTime? birthday1 = yesOrNo ? FirstSelection_Birthday_dateTimePicker.Value : (DateTime?)null;
@@ -281,6 +286,188 @@ namespace Login_Day2
         private void search_btn_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Import_btn_Click(object sender, EventArgs e)
+        {
+            using (OpenFileDialog openFileDialog = new OpenFileDialog())
+            {
+                openFileDialog.Filter = "Excel Files|*.xlsx;*.xls";
+                openFileDialog.Title = "Select an Excel File";
+
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    try
+                    {
+                        FileInfo file = new FileInfo(openFileDialog.FileName);
+                        using (ExcelPackage package = new ExcelPackage(file))
+                        {
+                            ExcelWorksheet worksheet = package.Workbook.Worksheets[0]; // Lấy sheet đầu tiên
+                            int rowCount = worksheet.Dimension.Rows;
+
+                            System.Data.DataTable table = dataGridView_StudentList.DataSource as System.Data.DataTable;
+                            for (int row = 2; row <= rowCount; row++)
+                            {
+                                string studentId = worksheet.Cells[row, 1].Text.Trim();
+                                string firstName = worksheet.Cells[row, 2].Text.Trim();
+                                string lastName = worksheet.Cells[row, 3].Text.Trim();
+                                string dayOfBirth = worksheet.Cells[row, 4].Text.Trim();
+                                string gender = worksheet.Cells[row, 5].Text.Trim();
+                                string phoneNumber = worksheet.Cells[row, 8].Text.Trim();
+                                string address = studentId + "@student.hcmute.edu.vn";
+                                string imagePath = worksheet.Cells[row, 9].Text.Trim();
+
+                                // Bỏ qua nếu trùng trong DataTable (DataGridView)
+                                bool existsInDataTable = table.AsEnumerable().Any(r => r.Field<int>("Id") == Convert.ToInt32(studentId));
+                                if (existsInDataTable)
+                                {
+                                    MessageBox.Show($"Student ID {studentId} already exists in the grid. Skipping...", "Duplicate");
+                                    continue;
+                                }
+
+                                // Bỏ qua nếu trùng trong Database
+                                using (SqlCommand checkCmd = new SqlCommand("SELECT COUNT(*) FROM std WHERE id = @id", db.getConnection))
+                                {
+                                    db.openConnection();
+                                    checkCmd.Parameters.AddWithValue("@id", studentId);
+                                    int count = (int)checkCmd.ExecuteScalar();
+                                    db.closeConnection();
+
+                                    if (count > 0)
+                                    {
+                                        MessageBox.Show($"Student ID {studentId} already exists in the database. Skipping...", "Duplicate");
+                                        continue;
+                                    }
+                                }
+
+                                // Xử lý ảnh
+                                System.Drawing.Image studentImage = null;
+                                if (File.Exists(imagePath))
+                                {
+                                    studentImage = System.Drawing.Image.FromFile(imagePath);
+                                }
+                                else
+                                {
+                                    studentImage = null;
+                                    MessageBox.Show($"Image not found at path: {imagePath}", "Warning");
+                                }
+
+                                byte[] imageBytes = ImageToByteArray(studentImage);
+
+                                DateTime dob;
+                                if (!DateTime.TryParseExact(dayOfBirth, "dd/MM/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out dob))
+                                {
+                                    MessageBox.Show($"Invalid date format at row {row}: {dayOfBirth}", "Error");
+                                    continue;
+                                }
+
+                                // Thêm vào Database
+                                using (SqlCommand cmd = new SqlCommand("INSERT INTO std (id, fname, lname, bdate, gender, phone, address, picture) " +
+                                    "VALUES (@id, @fname, @lname, @bdate, @gender, @phone, @address, @picture)", db.getConnection))
+                                {
+                                    db.openConnection();
+                                    cmd.Parameters.AddWithValue("@id", studentId);
+                                    cmd.Parameters.AddWithValue("@fname", firstName);
+                                    cmd.Parameters.AddWithValue("@lname", lastName);
+                                    cmd.Parameters.AddWithValue("@bdate", dob);
+                                    cmd.Parameters.AddWithValue("@gender", gender);
+                                    cmd.Parameters.AddWithValue("@phone", phoneNumber);
+                                    cmd.Parameters.AddWithValue("@address", address);
+                                    cmd.Parameters.AddWithValue("@picture", imageBytes ?? (object)DBNull.Value);
+                                    cmd.ExecuteNonQuery();
+                                    db.closeConnection();
+                                }
+
+                                // Thêm vào DataTable
+                                table.Rows.Add(studentId, firstName, lastName, dob, gender, phoneNumber, address, imageBytes);
+                            }
+
+                            dataGridView_StudentList.DataSource = table;
+                        }
+
+                        MessageBox.Show("Data imported successfully!", "Success");
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error importing data: {ex.Message}", "Error");
+                    }
+                }
+            }
+        }
+        private byte[] ImageToByteArray(System.Drawing.Image image)
+        {
+            if (image == null) return null;
+
+            using (MemoryStream ms = new MemoryStream())
+            {
+                image.Save(ms, System.Drawing.Imaging.ImageFormat.Png); // hoặc .Jpeg tùy bạn
+                return ms.ToArray();
+            }
+        }
+
+        private void Delete_btn_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn xóa toàn bộ sinh viên? Hành động này không thể hoàn tác!",
+         "Xác nhận xóa tất cả", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+            if (result == DialogResult.No)
+            {
+                return;
+            }
+
+            SqlTransaction transaction = null;
+            try
+            {
+                db.openConnection();
+
+                // Bắt đầu giao dịch
+                transaction = db.getConnection.BeginTransaction();
+
+                // Xóa dữ liệu trong bảng StudentCourses trước
+                using (SqlCommand cmdDelStudentCourses = new SqlCommand("DELETE FROM StudentCourses", db.getConnection))
+                {
+                    cmdDelStudentCourses.Transaction = transaction;
+                    cmdDelStudentCourses.ExecuteNonQuery();
+                }
+
+                // Xóa dữ liệu trong bảng std
+                using (SqlCommand cmdDelStd = new SqlCommand("DELETE FROM std", db.getConnection))
+                {
+                    cmdDelStd.Transaction = transaction;
+                    int rowsAffected = cmdDelStd.ExecuteNonQuery();
+
+                    // Kiểm tra xem có bản ghi nào bị xóa hay không
+                    if (rowsAffected > 0)
+                    {
+                        MessageBox.Show("Đã xóa toàn bộ sinh viên thành công!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Không có sinh viên nào để xóa.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+
+                // Commit giao dịch nếu mọi thứ thành công
+                transaction.Commit();
+
+                // Làm mới DataGridView
+                dataGridView_StudentList.DataSource = null;
+            }
+            catch (SqlException ex)
+            {
+                // Rollback giao dịch nếu có lỗi
+                transaction?.Rollback();
+                MessageBox.Show("Lỗi SQL: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception ex)
+            {
+                transaction?.Rollback();
+                MessageBox.Show("Lỗi: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                db.closeConnection();
+            }
         }
     }
 }

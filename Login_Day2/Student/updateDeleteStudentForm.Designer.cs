@@ -28,9 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.find_btn = new System.Windows.Forms.Button();
             this.StudentID_label = new System.Windows.Forms.Label();
-            this.StudentID_textBox = new System.Windows.Forms.TextBox();
             this.firstName_textBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.lastName_textBox = new System.Windows.Forms.TextBox();
@@ -50,18 +48,10 @@
             this.Delete_btn = new System.Windows.Forms.Button();
             this.uploadImage_btn = new System.Windows.Forms.Button();
             this.search_btn = new System.Windows.Forms.Button();
+            this.StudentID_comboBox = new System.Windows.Forms.ComboBox();
+            this.AddCourse_btn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.personalPicture_pictureBox)).BeginInit();
             this.SuspendLayout();
-            // 
-            // find_btn
-            // 
-            this.find_btn.Location = new System.Drawing.Point(268, 34);
-            this.find_btn.Name = "find_btn";
-            this.find_btn.Size = new System.Drawing.Size(75, 23);
-            this.find_btn.TabIndex = 0;
-            this.find_btn.Text = "Find";
-            this.find_btn.UseVisualStyleBackColor = true;
-            this.find_btn.Click += new System.EventHandler(this.find_btn_Click);
             // 
             // StudentID_label
             // 
@@ -72,15 +62,6 @@
             this.StudentID_label.Size = new System.Drawing.Size(82, 19);
             this.StudentID_label.TabIndex = 1;
             this.StudentID_label.Text = "Student ID:";
-            // 
-            // StudentID_textBox
-            // 
-            this.StudentID_textBox.Location = new System.Drawing.Point(111, 34);
-            this.StudentID_textBox.Name = "StudentID_textBox";
-            this.StudentID_textBox.Size = new System.Drawing.Size(137, 20);
-            this.StudentID_textBox.TabIndex = 2;
-            this.StudentID_textBox.TextChanged += new System.EventHandler(this.StudentID_textBox_TextChanged);
-            this.StudentID_textBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.StudentID_textBox_KeyPress);
             // 
             // firstName_textBox
             // 
@@ -263,11 +244,34 @@
             this.search_btn.UseVisualStyleBackColor = true;
             this.search_btn.Click += new System.EventHandler(this.search_btn_Click);
             // 
+            // StudentID_comboBox
+            // 
+            this.StudentID_comboBox.FormattingEnabled = true;
+            this.StudentID_comboBox.Location = new System.Drawing.Point(111, 35);
+            this.StudentID_comboBox.Name = "StudentID_comboBox";
+            this.StudentID_comboBox.Size = new System.Drawing.Size(121, 21);
+            this.StudentID_comboBox.TabIndex = 22;
+            this.StudentID_comboBox.SelectedIndexChanged += new System.EventHandler(this.StudentID_comboBox_SelectedIndexChanged);
+            this.StudentID_comboBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.StudentID_comboBox_KeyPress);
+            this.StudentID_comboBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.StudentID_comboBox_KeyUp);
+            // 
+            // AddCourse_btn
+            // 
+            this.AddCourse_btn.Location = new System.Drawing.Point(422, 366);
+            this.AddCourse_btn.Name = "AddCourse_btn";
+            this.AddCourse_btn.Size = new System.Drawing.Size(217, 72);
+            this.AddCourse_btn.TabIndex = 23;
+            this.AddCourse_btn.Text = "Add Course";
+            this.AddCourse_btn.UseVisualStyleBackColor = true;
+            this.AddCourse_btn.Click += new System.EventHandler(this.AddCourse_btn_Click);
+            // 
             // updateDeleteStudentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(669, 450);
+            this.Controls.Add(this.AddCourse_btn);
+            this.Controls.Add(this.StudentID_comboBox);
             this.Controls.Add(this.search_btn);
             this.Controls.Add(this.uploadImage_btn);
             this.Controls.Add(this.Delete_btn);
@@ -287,9 +291,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.firstName_textBox);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.StudentID_textBox);
             this.Controls.Add(this.StudentID_label);
-            this.Controls.Add(this.find_btn);
             this.Name = "updateDeleteStudentForm";
             this.Load += new System.EventHandler(this.updateDeleteStudentForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.personalPicture_pictureBox)).EndInit();
@@ -299,8 +301,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button find_btn;
         private System.Windows.Forms.Label StudentID_label;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -312,7 +312,6 @@
         private System.Windows.Forms.Button edit_btn;
         private System.Windows.Forms.Button Delete_btn;
         private System.Windows.Forms.Button uploadImage_btn;
-        public System.Windows.Forms.TextBox StudentID_textBox;
         public System.Windows.Forms.TextBox firstName_textBox;
         public System.Windows.Forms.TextBox lastName_textBox;
         public System.Windows.Forms.TextBox Phone_textBox;
@@ -322,5 +321,7 @@
         public System.Windows.Forms.RichTextBox email_richTextBox;
         public System.Windows.Forms.PictureBox personalPicture_pictureBox;
         private System.Windows.Forms.Button search_btn;
+        public System.Windows.Forms.ComboBox StudentID_comboBox;
+        private System.Windows.Forms.Button AddCourse_btn;
     }
 }
